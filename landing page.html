@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>خدمات تقنية المعلومات</title>
+  <meta name="description" content="من الإستراتيجية إلى الدعم، نُبقي أنظمتك سريعة، آمنة، وجاهزة للنمو." />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin:0;
+      font-family:'Cairo', sans-serif;
+      background:#fff;
+      color:#0f172a;
+      line-height:1.7;
+    }
+    header {
+      background:#fff;
+      border-bottom:1px solid #e2e8f0;
+      position:sticky;top:0;z-index:50;
+    }
+    .container {max-width:1100px;margin:0 auto;padding:0 1rem;}
+    nav {display:flex;justify-content:space-between;align-items:center;padding:.8rem 0;}
+    nav a {margin:0 .5rem;text-decoration:none;color:#1e40af;font-weight:600;}
+    .btn {
+      display:inline-block;padding:.6rem 1rem;border-radius:.5rem;
+      font-weight:600;text-decoration:none;transition:.2s;
+    }
+    .btn-primary {background:#2563eb;color:#fff;}
+    .btn-primary:hover {background:#1e40af;}
+    .btn-outline {border:1px solid #2563eb;color:#2563eb;}
+    .btn-outline:hover {background:#2563eb;color:#fff;}
+    /* Hero */
+    .hero {
+      position:relative;color:#fff;text-align:center;
+    }
+    .hero img {
+      width:100%;height:500px;object-fit:cover;filter:brightness(65%);
+    }
+    .hero-content {
+      position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+      max-width:800px;padding:1rem;
+    }
+    .hero h1 {font-size:2.2rem;margin-bottom:1rem;}
+    .hero p {font-size:1.2rem;margin-bottom:8rem;}
+    .hero .actions {display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;}
+    /* Sections */
+    section {padding:3rem 0;}
+    h2 {color:#1e40af;margin-bottom:1rem;}
+    .grid {display:grid;gap:1rem;}
+    .grid-3 {grid-template-columns:repeat(auto-fit,minmax(250px,1fr));}
+    .card {
+      border:1px solid #e2e8f0;border-radius:.6rem;padding:1rem;background:#f8fafc;
+    }
+    .card h3 {margin-top:0;color:#2563eb;}
+    .features, .process {display:grid;gap:1rem;}
+    .features {grid-template-columns:repeat(auto-fit,minmax(250px,1fr));}
+    .process {grid-template-columns:repeat(auto-fit,minmax(200px,1fr));}
+    .cta {
+      background:#1e40af;color:#fff;border-radius:.8rem;padding:2rem;text-align:center;
+    }
+    footer {padding:1.5rem 0;text-align:center;color:#475569;border-top:1px solid #e2e8f0;}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div><strong>HCSIT</strong></div>
+      <div>
+        <a href="#services">الخدمات</a>
+        <a href="#why">لماذا نحن</a>
+        <a href="#process">كيف نعمل</a>
+        <a href="#contact" class="btn btn-outline">تواصل معنا</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <img src="C:\Users\TOSHIBA\Pictures\WhatsApp Image 2025-02-06 at 17.34.59_6cdd63fa.jpg" alt="خدمات تقنية المعلومات">
+  <div class="hero-content">
+ <h1>مكّن عملك بحلول تقنية موثوقة وقابلة للتوسع</h1>
+    <p>من الإستراتيجية إلى الدعم، نُبقي أنظمتك سريعة، آمنة، وجاهزة للنمو.</p>
+    <div class="actions">
+      <a href="#contact" class="btn btn-primary">احجز استشارتك الآن</a>
+      <a href="#services" class="btn btn-outline">استعراض الخدمات</a>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="container">
+  <h2>الخدمات</h2>
+  <div class="grid grid-3">
+    <div class="card"><h3>الدعم الفني المُدار</h3><p>مراقبة على مدار الساعة، مكتب مساعدة، تحديثات، وتحسين الأداء.</p></div>
+    <div class="card"><h3>الهندسة السحابية والهجرة</h3><p>إعداد AWS/Azure، تحسين التكاليف، السحابة الهجينة، واستراتيجيات النسخ الاحتياطي.</p></div>
+    <div class="card"><h3>الأمن السيبراني والامتثال</h3><p>تقييم المخاطر، حماية الأجهزة، المصادقة متعددة العوامل، والمراقبة الأمنية.</p></div>
+    <div class="card"><h3>تصميم وتحسين الشبكات</h3><p>إعداد VLAN، تعزيز الجدار الناري، تخطيط الواي فاي، والتوجيه عالي التوافر.</p></div>
+    <div class="card"><h3>الاستشارات التقنية</h3><p>خرائط طريق، إعداد الميزانية، اختيار المورّدين، والتحول الرقمي.</p></div>
+    <div class="card"><h3>DevOps والأتمتة</h3><p>خطوط CI/CD، البنية التحتية ككود، وإدارة الحاويات.</p></div>
+  </div>
+</section>
+
+<!-- Why choose us -->
+<section id="why" class="container">
+  <h2>لماذا تختارنا</h2>
+  <div class="features">
+    <div class="card"><strong>نهج استباقي:</strong> منع المشكلات قبل أن تؤثر على عملك.</div>
+    <div class="card"><strong>اتفاقيات خدمة شفافة:</strong> أوقات استجابة واضحة ونتائج قابلة للقياس.</div>
+    <div class="card"><strong>عقلية أمنية أولاً:</strong> أفضل الممارسات مدمجة في كل طبقة من بنيتك.</div>
+    <div class="card"><strong>كفاءة في التكاليف:</strong> تحسين الإنفاق دون التضحية بالأداء.</div>
+  </div>
+</section>
+
+<!-- Process -->
+<section id="process" class="container">
+  <h2>كيف نعمل</h2>
+  <div class="process">
+    <div class="card"><h3>١. التقييم</h3><p>تحليل أهدافك وأنظمتك ومخاطرك.</p></div>
+    <div class="card"><h3>٢. التصميم</h3><p>بنية مخصصة وخطة تنفيذ واضحة.</p></div>
+    <div class="card"><h3>٣. التنفيذ</h3><p>تطبيق سلس مع اختبارات دقيقة.</p></div>
+    <div class="card"><h3>٤. الدعم</h3><p>مراقبة مستمرة، تقارير، وتحسين دائم.</p></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="contact" class="container">
+  <div class="cta">
+    <h2>احصل على تقييم مجاني</h2>
+    <p>احجز استشارة مدتها 30 دقيقة لتحديد المكاسب السريعة وخارطة الطريق.</p>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=med.chemaou@gmail.com&su=طلب%20استشارة&body=مرحباً،%20أرغب%20في%20الحصول%20على%20استشارة%20تقنية." 
+   target="_blank" 
+   class="btn btn-primary">احجز استشارتك الآن</a>
+    <p>ابدأ خلال أيام، لا أسابيع • نتائج مبكرة وأثر ملموس</p>
+  </div>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> شركة التقنية. جميع الحقوق محفوظة.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
